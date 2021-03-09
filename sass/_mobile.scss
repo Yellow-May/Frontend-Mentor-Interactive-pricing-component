@@ -1,0 +1,88 @@
+@media (max-width: 640px) {
+	body {
+		font-size: 13px;
+
+		background: url("/images/bg-pattern.svg") 0% 0% no-repeat,
+			$Very-Pale-Blue;
+
+		header {
+			background: url("/images/pattern-circles.svg") center center
+				no-repeat;
+			padding: 7.5rem 0;
+		}
+
+		main {
+			width: 90%;
+			margin-bottom: 7.5rem;
+
+			.content-body {
+				padding: 3.75rem 2rem;
+
+				.head {
+					flex-direction: column;
+
+					h3 {
+						padding-bottom: 7.5rem;
+					}
+				}
+
+				.body {
+					padding-top: 2.5rem;
+					position: relative;
+
+					input#slider {
+						position: absolute;
+						top: -7.5rem;
+						left: 0;
+					}
+
+					.extra-content {
+						padding-top: 0;
+						justify-content: center;
+
+						p {
+							padding: 0;
+							white-space: nowrap;
+
+							span.discount {
+								padding: 0.5rem 1rem;
+
+								span.ext {
+									display: none;
+								}
+							}
+						}
+
+						.toggle {
+							width: 4rem;
+							margin: 0 0.5rem;
+
+							input[type="checkbox"]:checked + span {
+								transform: translate(calc(200% - 1rem), -50%);
+							}
+						}
+					}
+				}
+			}
+
+			.content-footer {
+				padding: 2.5rem;
+				justify-content: center;
+				flex-direction: column;
+
+				ul {
+					padding-left: unset;
+					padding-bottom: 2rem;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+					li {
+						color: $Grayish-Blue;
+					}
+				}
+			}
+		}
+	}
+}
