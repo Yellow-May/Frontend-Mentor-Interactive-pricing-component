@@ -5,7 +5,7 @@ body {
 	width: 100%;
 	font-size: 15px;
 
-	background: url("/images/bg-pattern.svg") 0% 0% no-repeat, $Very-Pale-Blue;
+	background: url(./../images/bg-pattern.svg) 0% 0% no-repeat, $Very-Pale-Blue;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -84,8 +84,8 @@ body {
 						width: 2.5rem;
 						height: 2.5rem;
 						border-radius: 50%;
-						background: url(/images/icon-slider.svg) center center/
-								65% 25% no-repeat,
+						background: url(./../images/icon-slider.svg) center
+								center/ 65% 25% no-repeat,
 							$Strong-Cyan;
 						transition: 0.25s;
 						cursor: pointer;
@@ -168,7 +168,7 @@ body {
 
 			ul {
 				padding-left: 1rem;
-				list-style: url(/images/icon-check.svg);
+				list-style: url("./../images/icon-check.svg");
 
 				li {
 					padding: 0.375rem 0;

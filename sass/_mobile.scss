@@ -2,11 +2,11 @@
 	body {
 		font-size: 13px;
 
-		background: url("/images/bg-pattern.svg") 0% 0% no-repeat,
+		background: url("./../images/bg-pattern.svg") 0% 0% no-repeat,
 			$Very-Pale-Blue;
 
 		header {
-			background: url("/images/pattern-circles.svg") center center
+			background: url("./../images/pattern-circles.svg") center center
 				no-repeat;
 			padding: 7.5rem 0;
 		}
